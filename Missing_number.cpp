@@ -9,7 +9,7 @@ int main() {
         cin >> arr[i];
     }
     vector<int>track(n+1,0);
-    for(int i=0; i<=n; i++) {
+    for(int i=0; i<n; i++) {
         track[arr[i]] = 1;
     }
     for(int i=1; i<=n; i++) {
